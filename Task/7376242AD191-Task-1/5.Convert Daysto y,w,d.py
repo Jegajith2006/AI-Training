@@ -1,0 +1,5 @@
+d=int(input())
+y=int(d/366)
+m=abs(int(((y*366)-d)/30))
+t=abs(int(((y*366)+(m*30))-d))
+print(f"year={y} month={m} day={t}")
